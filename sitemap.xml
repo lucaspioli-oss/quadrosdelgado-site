@@ -2,32 +2,26 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
     <loc>https://quadrosdelgado.adv.br/</loc>
-    <lastmod>2025-10-28T20:43:06.770746+00:00</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>1</priority>
+    <lastmod>2025-02-02</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>1.0</priority>
   </url>
   <url>
-    <loc>https://quadrosdelgado.adv.br/sobre</loc>
-    <lastmod>2025-10-28T20:43:06.770746+00:00</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>1</priority>
+    <loc>https://quadrosdelgado.adv.br/#sobre</loc>
+    <lastmod>2025-02-02</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://quadrosdelgado.adv.br/areas-atuacao</loc>
-    <lastmod>2025-10-28T20:43:06.770746+00:00</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>1</priority>
+    <loc>https://quadrosdelgado.adv.br/#areas</loc>
+    <lastmod>2025-02-02</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://quadrosdelgado.adv.br/blog</loc>
-    <lastmod>2025-10-28T20:43:06.770746+00:00</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>1</priority>
-  </url>
-  <url>
-    <loc>https://quadrosdelgado.adv.br/contato</loc>
-    <lastmod>2025-10-28T20:43:06.770746+00:00</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>1</priority>
+    <loc>https://quadrosdelgado.adv.br/#contato</loc>
+    <lastmod>2025-02-02</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
   </url>
 </urlset>
