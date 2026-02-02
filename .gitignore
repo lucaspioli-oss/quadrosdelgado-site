@@ -1,0 +1,11 @@
+# Backups da Hostinger
+*.tar.gz
+*.sql.gz
+
+# Sistema
+.DS_Store
+Thumbs.db
+
+# Editor
+.vscode/
+.idea/
