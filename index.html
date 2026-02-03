@@ -3,11 +3,11 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Quadros Delgado Advocacia - Assessoria jurídica especializada em Direito Civil. Dra. Ana Maria Quadros - OAB/SP 125.596">
+    <meta name="description" content="Quadros Delgado Advocacia - Assessoria jurídica especializada em Direito Civil. Mais de 30 anos de experiência. Dra. Ana Maria Quadros - OAB/SP 125.596">
     <title>Quadros Delgado Advocacia | Direito Civil</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;600;700&family=Open+Sans:wght@400;500;600&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;600;700&family=Open+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
@@ -15,13 +15,13 @@
     <header class="header">
         <div class="container">
             <div class="logo">
-                <span class="logo-icon">⚖</span>
-                <span class="logo-text">Quadros Delgado<br><small>ADVOCACIA</small></span>
+                <img src="img/logo_adv_ajustado.png" alt="Quadros Delgado Advocacia" class="logo-img">
             </div>
             <nav class="nav">
                 <a href="#home">Home</a>
                 <a href="#sobre">Sobre</a>
                 <a href="#areas">Áreas de Atuação</a>
+                <a href="#equipe">Nossa Equipe</a>
                 <a href="#contato">Contato</a>
             </nav>
             <button class="menu-toggle" aria-label="Menu">☰</button>
@@ -30,12 +30,40 @@
 
     <!-- Hero Section -->
     <section id="home" class="hero">
-        <div class="hero-overlay"></div>
         <div class="container">
-            <div class="hero-content">
-                <h1>Assessoria Jurídica de Excelência em <span>Direito Civil</span></h1>
-                <p>Nosso escritório se consolidou como referência em ética profissional e dedicação aos clientes. Atendimento personalizado e orientação jurídica clara.</p>
-                <a href="#contato" class="btn btn-primary">Agende uma Consulta</a>
+            <div class="hero-grid">
+                <div class="hero-content">
+                    <h1>Assessoria Jurídica Especializada em <span>Direito Civil</span></h1>
+                    <p>Atuamos com ética, responsabilidade e dedicação à defesa dos direitos dos nossos clientes.</p>
+                    <a href="#contato" class="btn btn-light">Fale com um Advogado →</a>
+                </div>
+                <div class="hero-image">
+                    <img src="img/montagem.png" alt="Quadros Delgado Advocacia">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Por Que Escolher -->
+    <section class="porque">
+        <div class="container">
+            <h2>Por Que Escolher Nosso Escritório?</h2>
+            <div class="porque-grid">
+                <div class="porque-card">
+                    <div class="porque-icon">🤝</div>
+                    <h3>Compromisso com o Cliente</h3>
+                    <p>Cada caso é tratado com dedicação exclusiva, buscando sempre a melhor solução para nossos clientes.</p>
+                </div>
+                <div class="porque-card">
+                    <div class="porque-icon">👤</div>
+                    <h3>Atendimento Personalizado</h3>
+                    <p>Oferecemos orientação jurídica clara e acessível, respeitando as necessidades individuais de cada cliente.</p>
+                </div>
+                <div class="porque-card">
+                    <div class="porque-icon">📚</div>
+                    <h3>Conhecimento Técnico</h3>
+                    <p>Advogados qualificados e comprometidos com a excelência jurídica e atualização constante.</p>
+                </div>
             </div>
         </div>
     </section>
@@ -44,38 +72,52 @@
     <section id="sobre" class="sobre">
         <div class="container">
             <div class="sobre-grid">
+                <div class="sobre-image">
+                    <img src="img/themis.png" alt="Balança da Justiça">
+                </div>
                 <div class="sobre-content">
                     <h2>Sobre o Escritório</h2>
-                    <p class="lead">Nossa missão é proporcionar orientação jurídica clara, acessível e eficaz, sempre priorizando os interesses legítimos de nossos clientes.</p>
-                    <p>Com anos de experiência em advocacia, na atualização constante e no compromisso com a justiça, oferecemos Direito Civil com resultados consistentes.</p>
+                    <p class="lead">Fundado com o propósito de oferecer assessoria jurídica de excelência em Direito Civil, nosso escritório se consolidou como referência em ética profissional e dedicação aos clientes.</p>
 
-                    <div class="valores">
-                        <div class="valor">
-                            <span class="valor-icon">🎯</span>
-                            <h4>Compromisso</h4>
-                            <p>Dedicação total aos interesses dos nossos clientes</p>
-                        </div>
-                        <div class="valor">
-                            <span class="valor-icon">⚖️</span>
-                            <h4>Ética</h4>
-                            <p>Atuação pautada pelos mais altos padrões éticos</p>
-                        </div>
-                        <div class="valor">
-                            <span class="valor-icon">📚</span>
-                            <h4>Excelência</h4>
-                            <p>Busca constante por resultados de qualidade</p>
-                        </div>
+                    <div class="sobre-historia">
+                        <h3>Nossa História</h3>
+                        <p>Ao longo dos anos, construímos uma trajetória sólida baseada na confiança, no respeito e no comprometimento com a excelência. Nossa equipe está preparada para atender às mais diversas demandas do Direito Civil.</p>
+                    </div>
+
+                    <div class="sobre-missao">
+                        <h3>Nossa Missão</h3>
+                        <p>Nossa missão é proporcionar orientação jurídica clara, acessível e eficaz, sempre priorizando os interesses legítimos de nossos clientes.</p>
                     </div>
                 </div>
-                <div class="sobre-advogada">
-                    <div class="advogada-card">
-                        <div class="advogada-foto">
-                            <span class="foto-placeholder">👩‍⚖️</span>
-                        </div>
-                        <h3>Dra. Ana Maria Quadros</h3>
-                        <p class="oab">OAB/SP 125.596</p>
-                        <p class="bio">Especialista em Direito Civil com atendimento personalizado e orientação jurídica clara.</p>
-                    </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Nossos Valores -->
+    <section class="valores">
+        <div class="container">
+            <h2>Nossos Valores</h2>
+            <p class="section-subtitle">Nosso Compromisso com Você</p>
+            <div class="valores-grid">
+                <div class="valor-card">
+                    <div class="valor-icon">⚖️</div>
+                    <h3>Ética</h3>
+                    <p>Atuação pautada pelos mais altos padrões éticos da advocacia.</p>
+                </div>
+                <div class="valor-card">
+                    <div class="valor-icon">🎯</div>
+                    <h3>Comprometimento</h3>
+                    <p>Dedicação total aos interesses e objetivos dos nossos clientes.</p>
+                </div>
+                <div class="valor-card">
+                    <div class="valor-icon">📖</div>
+                    <h3>Atualização</h3>
+                    <p>Constante aprimoramento e acompanhamento das mudanças legislativas.</p>
+                </div>
+                <div class="valor-card">
+                    <div class="valor-icon">🏆</div>
+                    <h3>Excelência</h3>
+                    <p>Busca contínua por resultados de qualidade em todas as demandas.</p>
                 </div>
             </div>
         </div>
@@ -85,45 +127,81 @@
     <section id="areas" class="areas">
         <div class="container">
             <h2>Áreas de Atuação</h2>
-            <p class="section-subtitle">Oferecemos assessoria jurídica completa nas principais áreas do Direito Civil</p>
+            <p class="section-subtitle">Advocacia Civil</p>
 
             <div class="areas-grid">
                 <div class="area-card">
-                    <span class="area-icon">👨‍👩‍👧‍👦</span>
+                    <div class="area-icon">👨‍👩‍👧‍👦</div>
                     <h3>Direito de Família</h3>
                     <p>Divórcio, pensão alimentícia, guarda de filhos, união estável, investigação de paternidade e demais questões familiares.</p>
                 </div>
 
                 <div class="area-card">
-                    <span class="area-icon">📝</span>
+                    <div class="area-icon">📝</div>
                     <h3>Contratos</h3>
                     <p>Elaboração, análise e revisão de contratos. Assessoria em negociações e resolução de conflitos contratuais.</p>
                 </div>
 
                 <div class="area-card">
-                    <span class="area-icon">🏠</span>
+                    <div class="area-icon">🏠</div>
                     <h3>Direito Imobiliário</h3>
                     <p>Compra e venda de imóveis, locações, usucapião, regularização de propriedades e questões condominiais.</p>
                 </div>
 
                 <div class="area-card">
-                    <span class="area-icon">📋</span>
+                    <div class="area-icon">📋</div>
                     <h3>Inventário e Sucessões</h3>
                     <p>Inventário judicial e extrajudicial, partilha de bens, testamentos e planejamento sucessório.</p>
                 </div>
 
                 <div class="area-card">
-                    <span class="area-icon">🛡️</span>
+                    <div class="area-icon">🛡️</div>
                     <h3>Direito do Consumidor</h3>
                     <p>Defesa dos direitos do consumidor, ações contra empresas, indenizações e reparação de danos.</p>
                 </div>
 
                 <div class="area-card">
-                    <span class="area-icon">💰</span>
+                    <div class="area-icon">💰</div>
                     <h3>Cobranças e Indenizações</h3>
                     <p>Cobrança de dívidas, execuções, ações de indenização por danos materiais e morais.</p>
                 </div>
             </div>
+        </div>
+    </section>
+
+    <!-- Nossa Equipe -->
+    <section id="equipe" class="equipe">
+        <div class="container">
+            <h2>Nossa Equipe</h2>
+            <p class="section-subtitle">Mais de 30 anos de atuação em Direito Civil</p>
+
+            <div class="equipe-grid">
+                <div class="advogado-card">
+                    <div class="advogado-foto">
+                        <img src="img/ANA.png" alt="Dra. Ana Maria Quadros">
+                    </div>
+                    <h3>Dra. Ana Maria Quadros</h3>
+                    <p class="oab">OAB/SP 125.596</p>
+                    <p class="bio">Especializada em Direito Civil com atendimento personalizado e orientação jurídica clara.</p>
+                </div>
+                <div class="advogado-card">
+                    <div class="advogado-foto">
+                        <img src="img/vi.jpg" alt="Dra. Vitória Delgado">
+                    </div>
+                    <h3>Dra. Vitória Delgado</h3>
+                    <p class="oab">OAB/SP 534.150</p>
+                    <p class="bio">Atuação focada em Direito de Família e Sucessões, com dedicação e comprometimento.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- CTA -->
+    <section class="cta">
+        <div class="container">
+            <h2>Precisa de Orientação Jurídica?</h2>
+            <p>Agende uma consulta com nossa equipe jurídica especializada.</p>
+            <a href="#contato" class="btn btn-light">Entre em Contato</a>
         </div>
     </section>
 
@@ -136,32 +214,33 @@
                     <p>Agende uma consulta e converse com nossa equipe jurídica especializada. Estamos prontos para ajudar você.</p>
 
                     <div class="contato-dados">
-                        <div class="contato-item">
+                        <a href="mailto:contato@quadrosdelgado.adv.br" class="contato-item">
                             <span class="contato-icon">📧</span>
                             <div>
                                 <strong>E-mail</strong>
                                 <p>contato@quadrosdelgado.adv.br</p>
                             </div>
-                        </div>
-                        <div class="contato-item">
+                        </a>
+                        <a href="https://wa.me/5511970609745" target="_blank" class="contato-item">
                             <span class="contato-icon">📱</span>
                             <div>
                                 <strong>WhatsApp</strong>
-                                <p>(11) 99999-9999</p>
+                                <p>(11) 97060-9745</p>
                             </div>
-                        </div>
-                        <div class="contato-item">
-                            <span class="contato-icon">📍</span>
+                        </a>
+                        <a href="tel:+5511979903200" class="contato-item">
+                            <span class="contato-icon">📞</span>
                             <div>
-                                <strong>Endereço</strong>
-                                <p>São Paulo - SP</p>
+                                <strong>Telefone</strong>
+                                <p>(11) 97990-3200</p>
                             </div>
-                        </div>
+                        </a>
                     </div>
                 </div>
 
                 <div class="contato-form">
-                    <form id="form-contato" action="https://formspree.io/f/your-form-id" method="POST">
+                    <h3>Envie sua mensagem</h3>
+                    <form id="form-contato" action="https://formspree.io/f/mldgqzpk" method="POST">
                         <div class="form-group">
                             <label for="nome">Seu Nome *</label>
                             <input type="text" id="nome" name="nome" required>
@@ -178,7 +257,7 @@
                         </div>
 
                         <div class="form-group">
-                            <label for="area">Área do Direito</label>
+                            <label for="area">Qual a área do Direito relacionada à sua dúvida?</label>
                             <select id="area" name="area">
                                 <option value="">Selecione...</option>
                                 <option value="familia">Direito de Família (Divórcio, Pensão, Guarda, etc.)</option>
@@ -189,7 +268,7 @@
                         </div>
 
                         <div class="form-group">
-                            <label for="mensagem">Descreva seu caso ou dúvida jurídica *</label>
+                            <label for="mensagem">Descreva o seu caso ou dúvida jurídica *</label>
                             <textarea id="mensagem" name="mensagem" rows="5" required></textarea>
                         </div>
 
@@ -205,10 +284,13 @@
         <div class="container">
             <div class="footer-content">
                 <div class="footer-logo">
-                    <span class="logo-icon">⚖</span>
-                    <span class="logo-text">Quadros Delgado<br><small>ADVOCACIA</small></span>
+                    <img src="img/logo_adv_ajustado.png" alt="Quadros Delgado Advocacia" class="logo-img-footer">
                 </div>
-                <p class="footer-text">Assessoria jurídica de excelência em Direito Civil.<br>Dra. Ana Maria Quadros - OAB/SP 125.596</p>
+                <p class="footer-text">Assessoria jurídica de excelência em Direito Civil.<br>Dra. Ana Maria Quadros - OAB/SP 125.596 | Dra. Vitória Delgado - OAB/SP 534.150</p>
+                <div class="footer-contato">
+                    <a href="mailto:contato@quadrosdelgado.adv.br">contato@quadrosdelgado.adv.br</a>
+                    <a href="https://wa.me/5511970609745" target="_blank">(11) 97060-9745</a>
+                </div>
                 <p class="copyright">© 2025 Quadros Delgado Advocacia. Todos os direitos reservados.</p>
             </div>
         </div>
